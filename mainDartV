@@ -1,0 +1,16 @@
+
+import 'package:flutter/material.dart';
+import 'package:whatsapp/login_page.dart';
+import 'package:whatsapp/main_whatsapp.dart';
+import 'package:whatsapp/second_page.dart';
+
+void main() {
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    routes: {
+      '/': (context) => MainWhatsapp(),
+      // '/': (context) => LoginPage(),
+      // '/second_page': (context) => SecondPage(),
+    },
+  ));
+}
